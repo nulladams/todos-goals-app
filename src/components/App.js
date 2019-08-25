@@ -29,6 +29,7 @@ class App extends React.Component {
 }
 
 export default connect((state) => ({
-  todos: state.todos
-}))(Todos)
+  loading: state.loading
+}))(App)
+
 
